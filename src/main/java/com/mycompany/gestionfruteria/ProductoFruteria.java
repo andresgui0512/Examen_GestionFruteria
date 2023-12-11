@@ -9,8 +9,8 @@ package com.mycompany.gestionfruteria;
  * @author andre
  */
 class ProductoFruteria {
-    private String nombre;
-    private double precioKilo;
+    private final String nombre;
+    private final double precioKilo;
     private double pesoDisponible;
 
     public ProductoFruteria(String nombre, double precioKilo, double pesoDisponible) {

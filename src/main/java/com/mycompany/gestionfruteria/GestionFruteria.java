@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GestionFruteria {
-    private ArrayList<ProductoFruteria> inventario;
+    private final ArrayList<ProductoFruteria> inventario;
 
     public GestionFruteria() {
         inventario = new ArrayList<>();
